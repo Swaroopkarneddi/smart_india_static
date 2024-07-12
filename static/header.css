@@ -1,0 +1,212 @@
+.main1 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #419197;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.main2 {
+  background-color: #fff;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  padding: 20px;
+  text-align: left;
+  margin-top: 100px;
+}
+.btn1{
+  border: none;
+  background: transparent;
+  font-family: Arial, sans-serif;
+    color: #419197;
+    font-size: 20px;
+    text-align: left;
+}
+.dist{
+  padding: 30px;
+  background-color: #419197;
+}
+.text1 {
+  color: #419197;
+}
+
+.text {
+  line-height: 1.6;
+}
+  video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .top11 {
+    position: sticky;
+    background-color: #005e76;
+  }
+  
+  .space {
+    width: 30px;
+  }
+  .top button {
+    padding: 12px 15px;
+    background-color: transparent;
+    border: none;
+    color: #005e76;
+    font-family: "Bell MT";
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 13%;
+    float: right;
+  }
+  .top button:hover {
+    background-color: white;
+    color: #005e76;
+  }
+  
+  .top1 button {
+    padding: 12px 15px;
+    background-color: transparent;
+    border: none;
+    color: #005e76;
+    font-family: "Bell MT";
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 13%;
+    float: right;
+  }
+  .top1 button:hover {
+    background-color: white;
+    color: #005e76;
+  }
+  
+  .top21 {
+    width: 20%;
+    height: 20%;
+  }
+  .top21 button {
+    padding: 12px 15px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-family: "Bell MT";
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 50%;
+  }
+  .top21 button:hover {
+    background-color: white;
+    color: #005e76;
+  }
+  
+  .top22 {
+    width: 20%;
+    height: 20%;
+    background: linear-gradient(to right, #6a8f97 0%, #8da9af 100%);
+  }
+  .top22 button {
+    padding: 12px 15px;
+    background-color: transparent;
+    border: none;
+    color: #005e76;
+    font-family: "Bell MT";
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 50%;
+  }
+  .top22 button:hover {
+    background-color: white;
+    color: #005e76;
+  }
+  
+  .top23 {
+    width: 20%;
+    height: 20%;
+    background: linear-gradient(to right, #0099cc 0%, #00ccff 100%);
+  }
+  .top23 button {
+    padding: 12px 15px;
+    background-color: transparent;
+    border: none;
+    color: #005e76;
+    font-family: "Bell MT";
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 50%;
+  }
+  .top23 button:hover {
+    background-color: white;
+    color: #005e76;
+  }
+  
+
+
+  .main {
+    text-align: center;
+  }
+  .main h1 {
+    font-family: "franklin gothic demi";
+  }
+  .topics {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content:space-around;
+  }
+  .card{
+    display: inline-block;
+    width: 350px;
+    height: 400px;
+    background-color: powderblue;
+    margin: 10px;
+    padding: 10px;
+  } 
+
+  .card:hover {
+    transform: translateY(-5px);
+}
+footer {
+    background-color: #005e76;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .topics {
+        grid-template-columns: 35rem;
+        padding: 10px;
+    }
+    .card {
+        width: 100%;
+    }
+}
